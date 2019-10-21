@@ -9,3 +9,9 @@
 .portfolio-links {
     color: #535353;
 }
+
+@media (max-width: 576px) {
+    .portfolio-container .col-xl-4 {
+        margin-bottom: 20px;
+    }
+}
