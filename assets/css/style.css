@@ -1,1 +1,8 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
 
+.social-icon {
+    /* Visual */
+    height: 30px;
+}

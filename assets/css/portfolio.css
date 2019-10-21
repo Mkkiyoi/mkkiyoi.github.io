@@ -1,0 +1,11 @@
+.portfolio-container p {
+    font-size: .95rem;
+}
+
+.portfolio-img {
+    height: 200px;
+}
+
+.portfolio-links {
+    color: #535353;
+}
