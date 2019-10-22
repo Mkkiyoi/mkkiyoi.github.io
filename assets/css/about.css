@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    body #about .col-xl-6 div img {
+        float: none;
+        margin: 0 auto 20px auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    body #about .col-xl-6 div img {
+        margin: 0 auto 20px auto;
+        width: 70%;
+    }
+}
