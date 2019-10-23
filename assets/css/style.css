@@ -2,7 +2,67 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.social-icon {
-    /* Visual */
-    height: 30px;
+h1 {
+    font-size: 60px;
+}
+
+.spacer {
+    height: 56px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.btn {
+    border: 2px black solid;
+    border-radius: 0;
+}
+
+.btn:hover {
+    border: 2px gray solid;
+    border-radius: 0;
+    color: gray;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+     
+    .btn, #fl-left, #fl-right {
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .lead {
+        text-align: center;
+    }
+
+    #btn-row {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 577px) {
+    #btn-row {
+        margin-top: 3rem;
+    }
+
+    #fl-left {
+        float: left;
+        margin: 0
+    }
+
+    #fl-right {
+        float: right;
+        margin: 0;
+    }
 }

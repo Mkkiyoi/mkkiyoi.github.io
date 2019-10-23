@@ -7,19 +7,26 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Linking reset.css -->
+        <!-- Import reset.css -->
         <link rel="stylesheet" href="assets/css/reset.css">
 
-        <!-- Linking Bootstrap -->
+        <!-- Import Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Import Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-        <!-- Linking CSS files -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Import Font Awesome -->
+        <script src="https://kit.fontawesome.com/ee87894be9.js" crossorigin="anonymous"></script>
 
-        <!-- Linking Javascript files -->
+        <!-- Import CSS files -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!-- Import Javascript files -->
         <script src="assets/javascript/index.js" type="text/jsx"></script>
     </head>
         
@@ -46,28 +53,38 @@
                 </ul>
             </div>
         </nav>
+        <div class="spacer"></div>
         <div class="container mt-5">
             <div class="row">
-                <div class="col-12">
-                    <div class="jumbotron">
-                        <div class="display-4">
-                            Matthew Kiyoi 
-                        </div>
-                    </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h1 class="text-center fadeInDown animated">Matthew Kiyoi</h1>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p class="lead fadeInDown animated delay-1s">... is a Web Developer combining logical design and clean aesthetics.</p>
+                    <p class="lead fadeInDown animated delay-1_5s">... is a Japanese Math Rock Enthusiest</p>
+                    <p class="lead fadeInDown animated delay-2s">... is a Jesus Follower</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="float-right">
-                        <img class="img-fluid social-icon" src="assets/images/GitHub-Mark-120px-plus.png" alt="Github">
-                        <p class="d-inline">Check out my Github!</p>
+            <div class="row" id="btn-row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="fadeIn animated delay-3s" id="fl-right">
+                        <a href="portfolio.html">
+                            <button class="btn"> Portfolio</button>
+                        </a>
                     </div>
-                    
                 </div>
-                <div class="col-6">
-                    <div class="">
-                        <img class="img-fluid social-icon" src="assets/images/LI-In-Bug.png" alt="Github">
-                        <p class="d-inline">Check out my LinkedIn Page</p>               
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="fadeIn animated delay-3s">
+                        <a href="https://github.com/mkkiyoi">
+                            <button class="btn d-block mx-auto">My Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="fadeIn animated delay-3s" id="fl-left">
+                        <a href="https://www.linkedin.com/in/matthew-kiyoi/">
+                            <button class="btn">My LinkedIn</button>   
+                        </a>            
                     </div>
                 </div>                
             </div>
