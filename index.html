@@ -20,9 +20,11 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
         <!-- Import Font Awesome -->
+        <script src="https://kit.fontawesome.com/ee87894be9.js" crossorigin="anonymous"></script>
 
         <!-- Import CSS files -->
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
 
         <!-- Import Javascript files -->
         <script src="assets/javascript/index.js" type="text/jsx"></script>
@@ -51,35 +53,40 @@
                 </ul>
             </div>
         </nav>
+        <div class="spacer"></div>
         <div class="container mt-5">
             <div class="row">
-                <div class="col-12">
-                    <div class="jumbotron text-center">
-                        <div class="display-4 mb-4">
-                            Matthew Kiyoi 
-                        </div>
-                        <p class="lead">Web Developer combining logical design and clean aesthetics.</p>
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="float-right">
-                                    <p class="d-inline"><i class="fas fa-list"></i>Portfolio</p>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div>
-                                    <img class="img-fluid social-icon" src="assets/images/GitHub-Mark-120px-plus.png" alt="Github">
-                                    <p class="d-inline">My Github</p>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="float-left">
-                                    <img class="img-fluid social-icon" src="assets/images/LI-In-Bug.png" alt="Github">
-                                    <p class="d-inline">My LinkedIn</p>               
-                                </div>
-                            </div>                
-                        </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h1 class="text-center fadeInDown animated">Matthew Kiyoi</h1>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p class="lead fadeInDown animated delay-1s">... is a Web Developer combining logical design and clean aesthetics.</p>
+                    <p class="lead fadeInDown animated delay-1_5s">... is a Japanese Math Rock Enthusiest</p>
+                    <p class="lead fadeInDown animated delay-2s">... is a Jesus Follower</p>
+                </div>
+            </div>
+            <div class="row" id="btn-row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="fadeIn animated delay-3s" id="fl-right">
+                        <a href="portfolio.html">
+                            <button class="btn"> Portfolio</button>
+                        </a>
                     </div>
                 </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="fadeIn animated delay-3s">
+                        <a href="https://github.com/mkkiyoi">
+                            <button class="btn d-block mx-auto">My Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="fadeIn animated delay-3s" id="fl-left">
+                        <a href="https://www.linkedin.com/in/matthew-kiyoi/">
+                            <button class="btn">My LinkedIn</button>   
+                        </a>            
+                    </div>
+                </div>                
             </div>
         </div>
     </body>
